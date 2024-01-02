@@ -1,4 +1,7 @@
-class Solution {
+/*
+Use Hashmap store same duplicate elements in different rows.
+
+*/class Solution {
     public List<List<Integer>> findMatrix(int[] nums) {
         int mp[] = new int[nums.length + 1];
 
